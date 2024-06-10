@@ -10,9 +10,13 @@ export default function Page() {
       templateColumns='repeat(5, 1fr)'
       columnGap={1}
 >
-      <GridItem rowSpan={3} colSpan={1} bg='#EDFDFD' />
+      <GridItem rowSpan={3} colSpan={1} bg='#EDFDFD'>
+            <Heading size='2xl' fontWeight='bold' textAlign='left' noOfLines={1} color='black' marginLeft='5vw' marginTop='5vh' fontSize='4vh'>
+        Questions
+        </Heading>
+      </GridItem>
       <GridItem colSpan={4} rowSpan={1} bg='#FFF8E7'>
-        <Heading size='4xl' fontWeight='bold' textAlign='left' noOfLines={1} color='black' marginLeft='5vw' marginTop='5vh'>
+        <Heading size='4xl' fontWeight='bold' textAlign='left' noOfLines={1} color='black' marginLeft='5vw' marginTop='5vh' fontSize='4vh'>
           AJ Markow's Project for Vercel's Support Engineer Exercise
         </Heading>
       </GridItem>
