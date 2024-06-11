@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Link,Divider,Center,Grid, GridItem,Heading, OrderedList,ListItem} from '@chakra-ui/react'
+import { Link,Divider,Center,Grid, GridItem,Heading, OrderedList,ListItem,Text} from '@chakra-ui/react'
 
 
 export default function Page() {
@@ -11,7 +11,7 @@ export default function Page() {
       columnGap={1}
 >
       <GridItem rowSpan={3} colSpan={1} bg='#EDFDFD'>
-            <Heading size='2xl' fontWeight='bold' textAlign='left' noOfLines={1} color='black' marginLeft='5vw' marginTop='5vh' fontSize='4vh' marginBottom="8vh">
+            <Heading size='2xl' fontWeight='bold' textAlign='left' color='black' marginLeft='5vw' marginTop='5vh' fontSize='4vh' marginBottom="8vh">
         Questions
         </Heading>
         <Center>
@@ -52,7 +52,15 @@ export default function Page() {
           AJ Markow's Project for Vercel's Support Engineer Exercise
         </Heading>
       </GridItem>
-  <GridItem colSpan={4} bg='#FFF8E7' />
+      <GridItem colSpan={4} bg='#FFF8E7'>
+        <Text color='black' fontSize='2vh' marginLeft='10vw' >
+          Thank you for your consideration for this role.
+          <br/>
+          I hope you enjoy reading my answers, and reviewing my code.
+          <br/>
+          I'm excited for you to learn about my support engineering approach and experience.
+        </Text>
+  </GridItem>
   <GridItem colSpan={4} bg='#FFF8E7' />
 </Grid>
   )
