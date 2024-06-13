@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Link,Divider,Center,Grid, GridItem,Heading, OrderedList,ListItem,Text} from '@chakra-ui/react'
 
 
@@ -26,11 +25,10 @@ export default function Page() {
                           <Divider />
                         <Link href="/questions/3">
               <ListItem>Question 3</ListItem>
-                            
             </Link>
             <Divider />
                         <Link href="/questions/4">
-              <ListItem>Question 4</ListItem>          
+              <ListItem>Question 4</ListItem>
             </Link>
             <Divider />
                         <Link href="/questions/5">
@@ -38,14 +36,14 @@ export default function Page() {
             </Link>
                           <Divider />
                         <Link href="/questions/6">
-              <ListItem>Question 6</ListItem>            
+              <ListItem>Question 6</ListItem>
             </Link>
           </OrderedList>
           </Center>
       </GridItem>
       <GridItem colSpan={4} rowSpan={1} bg='#FFF8E7'>
         <Heading size='4xl' fontWeight='bold' textAlign='left' noOfLines={1} color='black' marginLeft='5vw' marginTop='5vh' fontSize='4vh'>
-          AJ Markow's Project for Vercel's Support Engineer Exercise
+          AJ Markow`&#39;`s Project for Vercel`&#39;`s Support Engineer Exercise
         </Heading>
       </GridItem>
       <GridItem colSpan={4} bg='#FFF8E7'>
@@ -54,7 +52,7 @@ export default function Page() {
           <br/>
           I hope you enjoy reading my answers, and reviewing my code.
           <br/>
-          I'm excited for you to learn about my support engineering approach and experience.
+          I`&#39;`m excited for you to learn about my support engineering approach and experience.
         </Text>
   </GridItem>
   <GridItem colSpan={4} bg='#FFF8E7' />
