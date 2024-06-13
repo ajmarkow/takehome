@@ -43,7 +43,7 @@ export default function Page() {
       </GridItem>
       <GridItem colSpan={4} rowSpan={1} bg='#FFF8E7'>
         <Heading size='4xl' fontWeight='bold' textAlign='left' noOfLines={1} color='black' marginLeft='5vw' marginTop='5vh' fontSize='4vh'>
-          AJ Markow`&#39;`s Project for Vercel`&#39;`s Support Engineer Exercise
+          AJ Markow&#39;s Project for Vercel&#39;s Support Engineer Exercise
         </Heading>
       </GridItem>
       <GridItem colSpan={4} bg='#FFF8E7'>
@@ -52,7 +52,7 @@ export default function Page() {
           <br/>
           I hope you enjoy reading my answers, and reviewing my code.
           <br/>
-          I`&#39;`m excited for you to learn about my support engineering approach and experience.
+          I&#39;m excited for you to learn about my support engineering approach and experience.
         </Text>
   </GridItem>
   <GridItem colSpan={4} bg='#FFF8E7' />
