@@ -41,7 +41,7 @@ export default async function Page ({ params }) {
           </Heading>
         </GridItem>
 
-        <GridItem colSpan={5} rowSpan={5} bg='#FFF8E7'>
+        <GridItem colSpan={5} rowSpan={5} bg='#FFF8E7' display='flex'>
           <Text color='black' fontSize='24px' margin='10vw'>
             Answer {params.id} → {data.data[0].answer}
           </Text>
