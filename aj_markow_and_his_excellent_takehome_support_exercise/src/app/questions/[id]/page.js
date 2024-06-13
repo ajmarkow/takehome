@@ -4,7 +4,8 @@ export const revalidate = 1;
 // Create a single supabase client for interacting with your database
 
 export default async function Page ({ params }) {
-  async function getData () {
+  async function getData() {
+    // With write restrictions present on supabase, they say having read only key like this in code publicly is okay. With more time I'd store it in an env variable.
     const supabase = createClient(
       'https://qcwyklypqexvdbrgoxmu.supabase.co',
       'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjd3lrbHlwcWV4dmRicmdveG11Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTgwNjQ0MDYsImV4cCI6MjAzMzY0MDQwNn0.Aqyuhxic2dqdfrclz0kML41c6_a8TIMMlnpKUOLVYxs'
