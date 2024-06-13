@@ -40,10 +40,6 @@ export default function Page() {
                         <Link href="/questions/6">
               <ListItem>Question 6</ListItem>            
             </Link>
-            <Divider />
-                        <Link href="/questions/7">
-              <ListItem>Question 7</ListItem>
-            </Link>
           </OrderedList>
           </Center>
       </GridItem>
